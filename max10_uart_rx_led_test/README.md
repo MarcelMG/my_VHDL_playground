@@ -6,6 +6,6 @@ FPGA receives commands via UART and onboard USB-UART adapter (FTDI FT2232H)
 
 UART receiver support parity check (if enabled)
 
-sending ASCII characters 1 to 8 light up the corresponding LED on the board
+sending ASCII characters 1 to 8 lights up the corresponding LED on the board
 
 sending a different character turns all LEDs off
