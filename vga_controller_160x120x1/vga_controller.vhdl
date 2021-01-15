@@ -37,7 +37,6 @@ architecture behavioral of vga_controller is
 begin
 
 	-- convert and wire VGA frame buffer index to BRAM read adress
-	-- "upscale" 160x120 image by 4 to 640*480 by simply dividing BRAM adress (pixel index) by 4
 	rdaddress_sig <= std_logic_vector(downscaled_frame_pixel_index);
 	
 	-- wire RBG outputs to BRAM data output pixel value
